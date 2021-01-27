@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+
+        <meta name="description" content="AJAX/PHP/CURL/JSON">
+        <meta charset="utf-8">
+	
+        <title>Project</title>
+
+    </head>
+
+    <body>
+
+        <select id="country">
+            <option value="GD">Grenada</option>
+            <option value="GT">Guatemala</option>
+            <option value="GU">Guam</option>
+            <option value="GY">Guyana</option>
+        </select>
+
+        <select id="lang">
+            <option value="en">English-EN</option>
+            <option value="fr">French-FR</option>
+            <option value="de">Dutch-DU</option>
+        </select>
+
+        <button id="BUTTON">START</button>
+
+        <br><br>
+
+        <div id="divResults">
+            
+            <table>
+
+                <tr>
+                    <td>currencyCode: </td> 
+                    <td id="currencyCode"></td>
+ 
+                </tr>
+
+                <tr>
+                    <td>Capital:  </td>
+                    <td id="txtCapital"></td>    
+
+                </tr>
+
+                <tr>
+                    <td>Population:</td> 
+                    <td id="txtPopulation"></td>    
+
+                </tr>
+
+                <tr>
+                    <td>languages: </td>
+                    <td id="languages"></td>    
+
+                </tr>
+                <tr>
+                    <td>fipsCode:</td> 
+                    <td id="fipsCode"></td>     
+
+                </tr>
+
+            </table>
+
+        </div>
+
+        <script  src="libs/js/jquery.js"></script>
+        <script  src="libs/js/script.js"></script>
+
+    </body>
+
+</html>
+
